@@ -4,10 +4,10 @@ use App\Manager\MessageManager;
 
 require __DIR__ . '/../../Config.php';
 require __DIR__ . '/../../DB.php';
-require __DIR__ . '/../../Classe/Message.php';
-require __DIR__ . '/../../Classe/User.php';
-require __DIR__ . '/../../Classe/UserManager.php';
-require __DIR__ . '/../../Classe/MessageManager.php';
+require __DIR__ . '/../../model/Entity/Message.php';
+require __DIR__ . '/../../model/Entity/User.php';
+require __DIR__ . '/../../model/Manager/UserManager.php';
+require __DIR__ . '/../../model/Manager/MessageManager.php';
 
 session_start();
 
