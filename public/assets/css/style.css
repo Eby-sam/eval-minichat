@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+
+#register, #connection {
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30rem;
+    max-width: 100%;
+    margin: 2rem auto;
+}
+
+form input:not([type=submit]) {
+    max-width: 90%;
+    font-size: 1rem;
+    display: block;
+    padding: 0.3rem 0.5rem;
+    width: 20rem;
+    margin: 2rem;
+    color: #8d8d8d;
+}
+
+
+form input[type=submit] {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    padding: 0.3rem 0.5rem 0.4rem 0.5rem;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+p.createAccount {
+    text-align: center;
+}
+
+span.createAccount {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span.createAccount:hover {
+    cursor: pointer;
+}
+
+#register {
+    display: none;
+}
+
+/*
+ * Messages
+ */
+.circle {
+    border-radius: 100px;
+    padding: 1rem 1.3rem;
+    margin-right: 1rem;
+    color: white;
+    background-color: red;
+}
+
+section {
+    border: 1px solid gray;
+    width: 100%;
+}
+
+a {
+    color: white;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.top {
+    border-bottom: 1px solid gray;
+    background-color: #b6b1b1;
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.messages {
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.messages div {
+    word-break: break-word;
+    padding: 0.6rem 1rem;
+    color: white;
+}
+
+span {
+    color: gray;
+    display: block;
+}
+
+.received > div {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 15px 15px 15px 0;
+}
+
+.sent {
+    text-align: right;
+}
+
+.sent > div {
+    display: inline-block;
+    background-color: #cdcaca;
+    border-radius: 15px 15px 0 15px;
+}
+
+.bottom {
+    padding: 1rem;
+    border-top: 1px solid gray;
+    background-color: #000000;
+    color: white;
+}
+
+textarea {
+    border: none;
+    background-color: #c1c1c3;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    width: 50%;
+}
+
+input[type=submit] {
+    padding: 0.3rem 0.6rem;
+    color: black;
+    background-color: white;
+    border: none;
+    margin-left: 1rem;
+}
+
