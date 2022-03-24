@@ -15,7 +15,11 @@ if (!isset($_SESSION['user'])) {
     </div>
 
     <div class="bottom">
-        <textarea name="message" id="message" cols="30" rows="1" maxlength="255"></textarea>
-        <input type="submit" name="submit" id="new_message">
+        <div>
+            <textarea name="message" id="message" cols="30" rows="1" maxlength="255"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="new_message">
+        </div>
     </div>
 </section>

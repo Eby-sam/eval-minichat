@@ -5,9 +5,9 @@ use App\Manager\MessageManager;
 
 require __DIR__ . '/../../Config.php';
 require __DIR__ . '/../../DB.php';
-require __DIR__ . '/../../Classe/Message.php';
-require __DIR__ . '/../../Classe/User.php';
-require __DIR__ . '/../../Classe/MessageManager.php';
+require __DIR__ . '/../../Model/Entity/Message.php';
+require __DIR__ . '/../../Model/Entity/User.php';
+require __DIR__ . '/../../Model/Manager/MessageManager.php';
 
 session_start();
 

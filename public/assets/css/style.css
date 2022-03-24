@@ -15,9 +15,9 @@ body {
 }
 
 #register, #connection {
-    padding: 1rem;
+    padding: 3rem;
     border: 2px solid black;
-    border-radius: 15px;
+    border-radius: 15px 0 15px 0;
     width: 30rem;
     max-width: 100%;
     margin: 2rem auto;
@@ -60,9 +60,6 @@ span.createAccount:hover {
     display: none;
 }
 
-/*
- * Messages
- */
 .circle {
     border-radius: 100px;
     padding: 1rem 1.3rem;
@@ -130,21 +127,22 @@ span {
     border-top: 1px solid gray;
     background-color: #000000;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 textarea {
-    border: none;
     background-color: #c1c1c3;
-    color: white;
     padding: 0.8rem 1.2rem;
-    width: 50%;
+    width: 100%;
 }
 
 input[type=submit] {
     padding: 0.3rem 0.6rem;
     color: black;
     background-color: white;
-    border: none;
     margin-left: 1rem;
 }
 
